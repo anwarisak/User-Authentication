@@ -19,33 +19,6 @@ Environment-based configurations
 
 MongoDB connection with Mongoose
 
-📂 Project Structure
-userAuth/
-│
-├── config/
-│   ├── config.js
-│   └── db.js
-│
-├── controllers/
-│   ├── authController.js
-│   └── userController.js
-│
-├── middleware/
-│   └── checkLogin.js
-│
-├── models/
-│   └── userModel.js
-│
-├── routes/
-│   ├── authRoute.js
-│   └── userRoute.js
-│
-├── utils/
-│   └── generateToken.js
-│
-├── server.js
-└── package.json
-
 🔧 Installation & Setup
 1. Clone the project
 git clone <repo-url>
