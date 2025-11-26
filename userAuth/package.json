@@ -1,0 +1,30 @@
+{
+  "name": "userauth",
+  "version": "1.0.0",
+  "description": "Simple user authentication API with JWT, bcrypt, and Express",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "auth",
+    "jwt",
+    "express",
+    "backend",
+    "nodejs"
+  ],
+  "author": "Anwar Isak",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "joi": "^18.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.20.0",
+    "nodemon": "^3.1.11"
+  }
+}
